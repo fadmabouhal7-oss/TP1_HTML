@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+   <head><title>Formulaire</title></head> 
+    <body>
+        <div>
+            <h2>Formulaire d'inscription</h2>
+            <form>
+                   
+                 <div>
+                <label for="Nom">Nom:</label>
+                <input type="text" id="Nom" name="Nom" required><br><br>
+                </div>
+                
+                <div>
+                <label for="prenom">Prénom:</label>
+                <input type="text" id="prenom" name="prenom" required><br><br>
+                </div>
+
+                <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                </div>
+
+                 <div>
+                <label for="password">Mot de passe:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                 </div>
+
+                 <div>
+                <label for="message">Votre message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                 </div>
+
+                 <div>
+                <label for="sport">Quel est votre sport préféré?</label>
+                <input type="radio" id="sport" name="sport" value="football" required>
+                <label for="sport">Football</label>
+                <input type="radio" id="sport" name="sport" value="basketball" required>
+                <label for="sport">Basketball</label>
+                <input type="radio" id="sport" name="sport" value="tennis" required>
+                <label for="sport">Tennis</label><br><br>
+                 </dev>
+
+                 <div>
+                <label for="loisirs">Quels sont vos loisirs?</label>
+                <input type="checkbox" id="loisir1" name="loisirs" value="lecture">
+                <label for="loisir1">Lecture</label>
+                <input type="checkbox" id="loisir2" name="loisirs" value="musique">
+                <label for="loisir2">Musique</label>
+                <input type="checkbox" id="loisir3" name="loisirs" value="voyage">
+                <label for="loisir3">Voyage</label><br><br>
+                 </div>
+
+                    <div>
+                <label for="pays">Sélectionnez votre pays:</label>
+                <select id="pays" name="pays" required>
+                    <option value="france">France</option>
+                    <option value="maroc">Maroc</option>
+                    <option value="canada">Canada</option>
+                    <option value="japon">Japon</option>
+                </select><br><br>
+                    </div>
+
+                <div>
+                    <label for="date">Date de naissance:</label>
+                    <input type="date" id="date" name="date" required><br><br>
+                </div>
+
+                <div>
+                    <label for="age">Âge:</label>
+                    <input type="number" id="age" name="age" min="0" required><br><br>
+                </div>
+
+                <div>
+                    <label for="couleur">Couleur préférée:</label>
+                    <input type="color" id="couleur" name="couleur" required><br><br>
+                </div>
+
+                <div>
+                    <label for="range">Évaluer le service:</label>
+                    <input type="range" id="range" name="range" min="0" max="10" required><br><br>
+                </div>
+
+                <div>
+                    <label for="search">Rechercher:</label>
+                    <input type="text" id="search" name="search" placeholder="Entrez votre recherche..." required><br><br>
+                </div>
+                
+                <div>
+                    <label for="file">Sélectionnez votre photo:</label>
+                    <input type="file" id="file" name="file" required><br><br>
+                </div>
+            </form>
+        </body>
+</html>
